@@ -1,0 +1,100 @@
+
+body{
+    background-color:lightblue;
+}
+header{
+    padding: 20px 30px;
+    border-color:#FF9999; 
+    border-style:ridge; 
+    border-width:medium;
+    background: white;
+}
+ul{
+    list-style-type:disc;
+    color:black; 
+    background-color:#CC9933;
+    padding: 10px 20px;
+}
+ul li{
+    background-color: #FFD98C;
+}
+
+table{
+    background-color: #CC9933;
+    text-align:center;
+    margin:auto;
+}
+th{
+    background: #CC9933;
+}
+tr{
+    background: #FFD98C;
+}
+
+#product:hover{
+    background: #805601;
+}
+
+.products:hover{
+    background: #6C82B4;
+}
+.products a:hover{
+    color: white;
+}
+div{ 
+    border-color:#FF9999; 
+    border-style:ridge; 
+    border-width:medium;
+    position: static;
+}
+
+h1{ 
+    font-weight:bold; 
+    text-decoration:underline; 
+    text-align:center;
+    text-transform:capitalize;
+    text-shadow: 3px 2px grey;
+}
+
+#available{
+    color: green;
+    text-decoration: underline
+}
+#oos{
+    color: red;
+    text-decoration: line-through
+}
+#principal-title:hover{
+    color: green;
+}
+#atras::before{
+    content:"<-";
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+/*
+Dentro de un contenedor que pertenezca a la clase contacto
+*/
+
+.button{
+    float:right;
+    background: #FFD98C;
+}
+.button a:link{
+    color: white;
+    background-color: lightblue;
+    padding: 7px 10px;
+    text-align: center; 
+    text-decoration: none;
+    border: 2px solid #FFD98C;
+    display:inline-block;
+}
+.button a:active, .contact a:hover{
+    background-color: #FFD98C;
+    border: 2px solid #FFD98C;
+    color:black;
+}
+

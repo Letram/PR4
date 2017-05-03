@@ -1,0 +1,15 @@
+div{
+    border: 10px dotted red;
+}
+table{
+    text-align:center;
+    margin:0px auto;
+}
+.Order{
+    float:right;
+}
+.error{
+    color:red;
+    font-size: 15px;
+    display:none;
+}

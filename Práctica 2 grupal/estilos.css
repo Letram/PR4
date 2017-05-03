@@ -1,0 +1,189 @@
+/* ------------------------- General ------------------------- */
+body {
+    background: linear-gradient(#fcf1de, #ddc9a6);
+    background-attachment: fixed;
+}
+header {
+    padding: 20px 30px;
+    border-color:#FF9999; 
+    border-style:ridge; 
+    border-width:medium;
+    background: white;
+}
+
+/* -------------------------- Tabla -------------------------- */
+table{
+    background: #ddb780;
+    border-color: #c44e0f; 
+    border-style: ridge; 
+    border-width: medium;
+    position: static;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 65%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+th{
+    padding: 15px 32px;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    background: #a55121;
+    color: white;
+    text-transform: uppercase;
+}
+tr{
+    padding: 15px 32px;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    background: #f2ebe1;
+    border-radius: 5px;
+}
+#product:hover{
+    background: #805601;
+}
+
+/* -------------------------- Lista -------------------------- */
+ul{
+    list-style-type:disc;
+    color:black; 
+    background-color:#c44e0f;
+    padding: 10px 20px;
+}
+ul li{
+    background-color: #ddb780;
+}
+ul.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li.navBar {
+    float: left;
+}
+li.navBar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.navBar a:hover {
+    background-color: #a55121;
+    color: #f2ebe1;
+}
+#logout{
+	float:right;
+}
+
+/* -------------------------- Botón -------------------------- */
+.button{
+    background-color: #a55121;
+    text-decoration: none;
+    position: static;
+    margin: 0 auto;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.smallButton{
+    background-color: #a55121;
+    border: none;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* -------------------------- Texto -------------------------- */
+.a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 3px #c44e0f;
+}
+
+.A {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 3px #c44e0f;
+}
+
+/* -------------------------- Input -------------------------- */
+.inputText {
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    font-size: 15px;
+    background: #f2ebe1;
+    margin-top: 10px;
+}
+
+/* ------------------------ Contenedor ------------------------ */
+.log {
+    background: #ddb780;
+    border-color: #c44e0f; 
+    border-style: ridge; 
+    border-width: medium;
+    position: static;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10%;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ------------------------ Estilos varios ------------------------ */
+.centre {
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+}
+#available{
+ color: green;
+ text-decoration: underline
+}
+#oos{
+ color: red;
+ text-decoration: line-through
+}
+#principal-title:hover{
+ color: green;
+}
+#atras::before{
+ content:"<-";
+}
+

@@ -1,0 +1,144 @@
+body{
+ background-color:lightblue;
+}
+header{
+ padding: 20px 30px;
+ border-color:#FF9999; 
+ border-style:ridge; 
+ border-width:medium;
+ background: white;
+}
+ul{
+ list-style-type:disc;
+ color:black; 
+ background-color:#CC9933;
+ padding: 10px 20px;
+}
+ul li{
+ background-color: #FFD98C;
+}
+
+table{
+ background-color: #CC9933;
+ text-align:center;
+ margin:auto;
+ border: solid black;
+}
+th{
+ background: #CC9933;
+}
+tr{
+ background: #FFD98C;
+}
+div{ 
+ border-color:#FF9999; 
+ border-style:ridge; 
+ border-width:medium;
+ position: static;
+}
+h1{ 
+ font-weight:bold; 
+ text-decoration:underline; 
+ text-align:center;
+ text-transform:capitalize;
+ text-shadow: 3px 2px grey;
+}
+a:visited{
+ text-decoration: none;
+}
+
+#product:hover{
+ background: #805601;
+}
+.image{
+ width: 25%;
+ height: auto;
+}
+.products:hover{
+ background: #6C82B4;
+}
+.products a:hover{
+ color: white;
+}
+tr.products:hover img{
+ width: 35%;
+ height: auto;
+}
+#available{
+ color: green;
+ text-decoration: underline
+}
+#oos{
+ color: red;
+ text-decoration: line-through
+}
+#principal-title:hover{
+ color: green;
+}
+#atras::before{
+ content:"<-";
+}
+#send{
+ float: left;
+ margin: 0 auto;
+ text-align: center;
+ background-color: #FFD98C;
+}
+#send:active{
+ background-color:#CC9933;
+}
+
+ul.navBar {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333;
+}
+
+li.navBar {
+ float: left;
+}
+
+li.navBar a {
+ display: block;
+ color: black;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+li.navBar a:hover {
+ background-color: #111;
+ color: white;
+}
+
+.button{
+ float:right;
+ background: #FFD98C;
+}
+.button a:link{
+ color: black;
+ background-color: #FFD98C;
+ padding: 7px 10px;
+ text-align: center; 
+ text-decoration: none;
+ border: 2px solid #FFD98C;
+ display:inline-block;
+}
+.button a:active, .contact a:hover{
+ background-color: #111;
+ color: white;
+}
+
+@media print{
+ body{
+     font-size: 12pt;
+ }
+}
+
+@media screen and (min-width: 400px) and (orientation:landscape){
+ body{
+     background-color:lightblue;
+ }
+}
